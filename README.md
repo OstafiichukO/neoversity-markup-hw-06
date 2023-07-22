@@ -1,2 +1,1 @@
-# goit-markup-hw-01
-GoIT Neoversity
+# GoIT Neoversity goit-markup-hw-01
