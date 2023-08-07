@@ -13,7 +13,7 @@ window.addEventListener("keydown", handleKeyDown);
 
 function toggleModal() {
     refs.modal.classList.toggle("is-hidden");
-    refs.body.classList.toggle("fixed");
+    refs.body.classList.toggle("is-fixed");
 }
 
 function handleBackdropClick(event) {

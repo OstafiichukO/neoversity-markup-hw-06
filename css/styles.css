@@ -84,6 +84,8 @@ body {
     background-color: var(--color-white);
 }
 
+body.is-fixed { overflow: hidden }
+
 .list { list-style-type: none; }
 
 .link { text-decoration: none }
