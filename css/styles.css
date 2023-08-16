@@ -863,28 +863,26 @@ body.is-fixed { overflow: hidden }
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
     row-gap: 72px;
 }
-
+  
 @media screen and (min-width: 768px) {
     .customers__list {
         gap: 24px;
         row-gap: 72px;
     }
-  }
+}
   
 @media screen and (min-width: 1158px) {
-    .customers__list {
-        gap: 24px;
-    }
+    .customers__list { gap: 24px }
 }
   
 .customers__item {
     width: calc((100% - 16px) / 2);
     height: 88px;
 }
-
+  
 @media screen and (min-width: 768px) {
     .customers__item { width: calc((100% - 48px) / 3) }
 }
